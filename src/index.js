@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/App/App';
+import Clock from './components/Clock/clock';
 import registerServiceWorker from './registerServiceWorker';
 
 // class Welcome extends React.Component {
@@ -25,6 +25,12 @@ import registerServiceWorker from './registerServiceWorker';
 // }
 
 // const element = <Welcome name ="Sara" />;
+function tick() {
+    ReactDOM.render(
+    <Clock date = {new Date()}/>, 
+    document.getElementById('root')
+    );
+    registerServiceWorker();
+}
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+setInterval(tick, 1000);
