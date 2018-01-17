@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Clock from './components/Clock/clock';
+import Clock from './components/Clock/Clock';
 import registerServiceWorker from './registerServiceWorker';
 
 // class Welcome extends React.Component {
