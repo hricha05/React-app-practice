@@ -1,0 +1,9 @@
+button {
+    display: block;
+    border-radius: 5px;
+    width: 320px;
+    height: 30px;
+    position: relative;
+    left: 15%;
+    /* margin: 5px; */
+}
