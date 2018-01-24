@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './login.css';
 
 export default class LogginButton extends Component {
     // This syntax ensures `this` is bounf within handleClick.
@@ -10,9 +11,11 @@ export default class LogginButton extends Component {
 
     render() {
         return (
-            <button onClick={this.handleClick} >
-                Login
-            </button>
+            <div className="login">
+                <button className="button"  onClick={this.handleClick} >
+                    Login
+                </button>
+            </div>
         );
     }
 }

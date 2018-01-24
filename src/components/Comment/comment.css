@@ -1,0 +1,14 @@
+.comment {
+    grid-column: 4 /8;
+    grid-row: 3/8;
+    background-color: gray;
+}
+
+.UserInfo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.UserInfo-name {
+    color: aqua;
+}

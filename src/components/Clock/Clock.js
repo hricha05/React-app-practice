@@ -26,7 +26,7 @@ export default class Clock extends Component {
   
   render() {
     return (
-      <div className="container">
+      <div className="header">
         <h1 className="text">Hello, World !</h1>
         <h2 className="clock">It is {this.state.date.toLocaleTimeString()}.</h2>
       </div>

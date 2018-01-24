@@ -1,5 +1,5 @@
-.container {
-    display: block;
+.header {
+    grid-column: 2 / 5;
 }
 
 .text {
