@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './button.css'
+
 export default class Toggle extends Component {
     constructor(props) {
         super(props);
