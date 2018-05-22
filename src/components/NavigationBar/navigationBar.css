@@ -1,0 +1,13 @@
+NavigationBar {
+    border: 1px solid grey;
+}
+
+.nav-bar {
+    border: 1px solid grey;
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;    
+}

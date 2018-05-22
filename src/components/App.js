@@ -17,7 +17,7 @@ export default class App extends Component {
                 {/* <LoginButton /> */}
                 {/* <Comment id="comment-1" name="James" /> */}
                 {/* <Comment id="Comment-2" name="Amira" /> */}
-                {/* <Header /> */}
+                <Header />
             </div>
         );
     }
