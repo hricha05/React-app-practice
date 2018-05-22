@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './login.css';
 
-export default class LogginButton extends Component {
+export default class LoginButton extends Component {
     // This syntax ensures `this` is bounf within handleClick.
     // Warning: this is *experimental* syntax.
 

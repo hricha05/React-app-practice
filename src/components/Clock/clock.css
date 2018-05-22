@@ -1,5 +1,6 @@
-.header {
+.clockComponent {
     grid-column: 2 / 5;
+    border: 1px solid gray;
 }
 
 .text {
