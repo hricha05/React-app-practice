@@ -1,0 +1,9 @@
+.header {
+    /* display: -webkit-flex */
+    /* border: 1px solid grey; */
+}
+
+NavigationBar{
+    display: flex;
+    border: 1px solid grey;
+}
