@@ -1,13 +1,27 @@
-NavigationBar {
-    border: 1px solid grey;
-}
-
 .nav-bar {
     border: 1px solid grey;
-    display: inline;
+    grid-row: 1;
+    display: -webkit-flex;
+    /* flex-grow: 2; */
     list-style: none;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+
+li {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
 }
 
 li a {
-    text-decoration: none;    
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;  
+    color: ghostwhite;
+    font-size: 16px;
+    text-transform: uppercase;
 }
